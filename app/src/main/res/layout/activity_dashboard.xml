@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity"
+    android:orientation="horizontal"
+    android:background="@color/Mainclr">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_to_csm"
+        android:textSize="35sp"
+        android:layout_marginTop="75dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/Mycolor1"
+        />
+
+    <ImageView
+        android:id="@+id/imgassign"
+        android:layout_width="60dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/ic_assignment"
+        android:layout_below="@+id/txt1"
+        android:layout_marginStart="10dp" />
+
+    <TextView
+        android:textColor="#ff2333"
+        android:id="@+id/txtassing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/assignments"
+        android:textSize="35sp"
+        android:layout_below="@id/txt1"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginStart="80dp" />
+
+    <ImageView
+        android:id="@+id/imgatten"
+        android:layout_width="60dp"
+        android:layout_height="75dp"
+        android:src="@drawable/ic_attendance"
+        android:layout_below="@id/imgassign"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+    <TextView
+        android:textColor="#ff2333"
+        android:id="@+id/txtatten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/attendance"
+        android:textSize="35sp"
+        android:layout_below="@id/txtassing"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginStart="80dp" />
+
+    <ImageView
+        android:id="@+id/imgtime"
+        android:layout_width="60dp"
+        android:layout_height="75dp"
+        android:src="@drawable/ic_timetable"
+        android:layout_below="@id/imgatten"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+    <TextView
+        android:id="@+id/txttime"
+        android:textColor="#ff2333"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time_table"
+        android:textSize="35sp"
+        android:layout_below="@id/txtatten"
+        android:layout_marginTop="28dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp" />
+
+</RelativeLayout>
