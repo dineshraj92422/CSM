@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="2dp"
+            android:id="@+id/imgatted"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="line 1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/Mycolor1"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/imgatted"
+            android:layout_toRightOf="@+id/imgatted"
+            android:id="@+id/txtav1"/>
+
+        <TextView
+            android:id="@+id/txtav2"
+            android:layout_marginTop="28dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtv1"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@+id/imgatted"
+            android:layout_toRightOf="@+id/imgatted"
+            android:text="line 2"
+            android:textColor="@color/Mycolor1"
+            android:textSize="15sp"
+            android:layout_marginLeft="8dp" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toLeftOf="@id/img_minus"
+            android:src="@drawable/ic_plus"/>
+
+
+        <ImageView
+            android:id="@+id/img_minus"
+            android:layout_width="45dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="-4dp"
+            android:layout_toLeftOf="@id/imgatted_delete"
+            android:src="@drawable/ic_minus" />
+
+        <ImageView
+            android:id="@+id/imgatted_delete"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/ic_delete_black_24dp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -17,4 +17,8 @@
     <string name="welcome_to_csm">Welcome To CSM</string>
     <string name="attendance">Attendance</string>
     <string name="time_table">Time Table</string>
+    <string name="insert">INSERT</string>
+    <string name="remove">REMOVE</string>
+    <string name="enter_your_assignment_subject">Enter Your Assignment Subject</string>
+    <string name="deadline">Enter the Deadline</string>
 </resources>
