@@ -55,23 +55,5 @@ public class DashboardActivity extends AppCompatActivity {
             }
         });
 
-        ImageView imgTime = (ImageView) findViewById(R.id.imgtime);
-        imgTime.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(DashboardActivity.this, TimeTableActivity.class );
-                startActivity( intent);
-            }
-        });
-
-
-        TextView txtTime = (TextView) findViewById(R.id.txttime);
-        txtTime.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(DashboardActivity.this, TimeTableActivity.class );
-                startActivity( intent);
-            }
-        });
     }
 }

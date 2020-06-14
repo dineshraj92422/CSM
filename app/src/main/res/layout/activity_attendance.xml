@@ -15,8 +15,7 @@
         android:layout_centerHorizontal="true"
         />
     <EditText
-
-        android:id="@+id/edittxt_deadline"
+        android:id="@+id/edittxt_sub"
         android:layout_width="110dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imgattend"
@@ -30,7 +29,7 @@
 
     <Button
         android:layout_below="@+id/imgattend"
-        android:id="@+id/btn_insert"
+        android:id="@+id/btnatte_insert"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/edittxt_insert"
@@ -39,8 +38,9 @@
         android:layout_marginBottom="1dp"
         android:text="@string/insert" />
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewatt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btn_insert"
+        android:layout_below="@+id/btnatte_insert"
         />
 </RelativeLayout>
